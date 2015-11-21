@@ -1,0 +1,10 @@
+[package]
+name = "chat"
+version = "0.1.0"
+authors = ["Alexander Sukharev <sukharev@prognoz.ru>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+net2 = "0.2.17"
